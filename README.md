@@ -2,12 +2,11 @@
 Add Product to cart
 
 Problem statements:
-•	Open https://www.flipkart.com/
-•	Search for a product “Samsung Mobile”
+•	Open https://www.flipkart.com/ and Search for a product “Samsung Mobile”
 •	Filter price by 10000 and above
-•	Click on the third result using XPath 
+•	Select on the third result
 •	On the product description page, validate the name is same as the product selected
-•	If validation is success, please add the product to the cart if it is available
+•	If validation is success, add the product to the cart if it is available
 •	Add to Wish list if product is out of stock
 
 
