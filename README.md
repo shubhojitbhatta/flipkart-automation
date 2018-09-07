@@ -1,7 +1,8 @@
-# flipkart-automation - Flipkart is an online retailer website
-Add Product to cart
+# flipkart-automation
+Flipkart is an online retailer website
 
 Problem statements:
+Add Product to cart
 •	Open https://www.flipkart.com/ and Search for a product “Samsung Mobile”
 •	Filter price by 10000 and above
 •	Select on the third result
