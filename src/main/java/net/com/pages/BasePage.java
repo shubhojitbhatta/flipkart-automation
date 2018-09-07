@@ -20,17 +20,15 @@ public class BasePage {
     }
 
     public String retryingGetElementTextAndClick(By by) {
-        boolean result = false;
         String text = "";
         int attempts = 0;
-        while(attempts < 15) {
+        while(attempts < 30) {
             try {
                 text = WebDriverManager.getDriver().findElement(by).getText();
                 WebDriverManager.getDriver().findElement(by).click();
-                result = true;
                 break;
             } catch(StaleElementReferenceException e) {
-                System.out.println("Attempt = " + attempts);
+                System.out.println("Found in Attempt = " + attempts);
             } catch (WebDriverException e) {
                 System.out.println("Attempt in WebDriverException catch = " + attempts);
             }
