@@ -13,10 +13,11 @@ Add Product to cart
 
 
 Instructions to run the tests:
-
+-
 This is a Java Maven project that contains dependencies for Selenium, TestNG, Extnt Report(for reporting) and Apache POI(for reading Excel file)
 
 Please follow the following steps to execute the Test Cases
+- 
 -	Import the project time-doctor in IDE and run a fresh maven build to import all the dependencies defined in pom.xml in project root folder
 -	Tests can be run in either of the 2 ways:
         Either ight-click on testing.xml present in the root folder and select run. This executes all the test methods specified in the testing.xml file present inside project root folder Or
@@ -24,8 +25,9 @@ Please follow the following steps to execute the Test Cases
 
 
 Features of this framework are as follows:
--	Framework is of Page Object Model design pattern
--	Supports cross-browser execution for Chrome, Firefox and IE browsers
+-
+-	Framework is of **Page Object Model** design pattern
+-	Supports **cross-browser execution** for Chrome, Firefox and IE browsers
 -	Has Fluent Interface mechanism that chains the page-related operations
--	Extent Report has been used to generate logs of Test Case execution. This log can be found in “test-output/FlipkartTest.html” inside the project root folder.
--	In case of Test Case failure, it will capture the screenshot after that particular step where the test failed and store it inside “test-output/ErrorScreenshots” folder
+-	**Extent Report** has been used to generate logs of Test Case execution. This log can be found in **test-output/FlipkartTest.html** inside the project root folder.
+-	In case of Test Case failure, it will capture the screenshot after that particular step where the test failed and store it inside **test-output/ErrorScreenshots** folder
