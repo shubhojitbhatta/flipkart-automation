@@ -3,12 +3,13 @@ Flipkart is an online retailer website
 
 Problem statements:
 Add Product to cart
-•	Open https://www.flipkart.com/ and Search for a product “Samsung Mobile”
-•	Filter price by 10000 and above
-•	Select on the third result
-•	On the product description page, validate the name is same as the product selected
-•	If validation is success, add the product to the cart if it is available
-•	Add to Wish list if product is out of stock
+- 
+- [ ]	Open https://www.flipkart.com/ and Search for a product “Samsung Mobile”
+- [ ]   Filter price by 10000 and above
+- [ ]   Select on the third result
+- [ ]   On the product description page, validate the name is same as the product selected
+- [ ]	If validation is success, add the product to the cart if it is available
+- [ ]	Add to Wish list if product is out of stock
 
 
 Instructions to run the tests:
