@@ -20,7 +20,7 @@ Please follow the following steps to execute the Test Cases
 - 
 -	Import the project time-doctor in IDE and run a fresh maven build to import all the dependencies defined in pom.xml in project root folder
 -	Tests can be run in either of the 2 ways:
-        Either ight-click on testing.xml present in the root folder and select run. This executes all the test methods specified in the testing.xml file present inside project root folder Or
+        Either right-click on testng.xml present in the root folder and select run. This executes all the test methods specified in the testing.xml file present inside project root folder Or
         Right-click and run TestRunner.java class. TestRunner.java class contains the Java main method. This will pick up Test Cases from the excel sheet “testcases.xlsx” placed under resources folder. Only those Test Cases that has Execution Flag = Y will be picked up; it will dynamically create “customTestNG.xml" file with only those Test Cases that has Execution Flag = Y in the excel sheet; it will run “customTestNG.xml file
 
 
