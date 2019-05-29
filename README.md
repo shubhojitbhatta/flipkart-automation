@@ -1,5 +1,5 @@
 # flipkart-automation
-Flipkart is an online retailer website
+Search for a product, apply filter, select nth result => add to Cart if available, else add to Wish List
 
 Problem statements:
 Add Product to cart
