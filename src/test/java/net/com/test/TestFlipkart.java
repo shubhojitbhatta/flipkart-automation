@@ -10,7 +10,7 @@ import java.io.IOException;
 public class TestFlipkart extends BaseTest {
 
     @Test
-    public void testProductSearch() throws IOException {
+    public void testSamsungMobileSearch() throws IOException {
 
         String productToSearch = "Samsung Mobile";
         try {
@@ -43,7 +43,7 @@ public class TestFlipkart extends BaseTest {
     }
 
     @Test
-    public void testArbitrary() throws IOException {
+    public void testAppleMobile() throws IOException {
 
         String productToSearch = "Apple iPhone Mobile";
         try {
@@ -53,8 +53,8 @@ public class TestFlipkart extends BaseTest {
             productsListPage = searchPage.searchProduct(productToSearch);
             passStep("Search for " + productToSearch);
 
-            productPage = productsListPage.filterByMinimumPrice("10000").selectProductOnIndex(3);
-            passStep("Selected product with price greater than Rs.10,000/-");
+            productPage = productsListPage.filterByMinimumPrice("20000").selectProductOnIndex(3);
+            passStep("Selected product with price greater than Rs.20,000/-");
             passStep("Launched Flipkart Web Application");
 
             if (productPage.getProductTitle().contains(productPage.getProductName())) {
